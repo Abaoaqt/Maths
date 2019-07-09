@@ -7,9 +7,9 @@ def base_converter(number, base):
 	num_convs = {10: 'a', 11: 'b', 12: 'c', 13: 'd', 14: 'e', 15: 'f', 16: 'g', 17: 'h', 18: 'i', 19: 'j',
 	 			 20: 'k', 21: 'l', 22: 'm', 23: 'n', 24: 'o', 25: 'p', 26: 'q', 27: 'r', 28: 's', 29: 't',
 	 			 30: 'u', 31: 'v', 32: 'w', 33: 'x', 34: 'y', 35: 'z'}
+	
 	# string that holds the output
 	string_num = ""
-
 
 	if base > 35 or base < 2:
 		string_num = "invalid base entered"
@@ -49,7 +49,10 @@ def base_converter(number, base):
 #examples
 if __name__ == "__main__":
 	print(base_converter(89,6))
+	# 225
 	print(base_converter(63,12))
+	# 53
 	print(base_converter(1111, 20))
+	# 2fb
 	print(base_converter(152769, 33))
-
+	# 489c

@@ -16,5 +16,3 @@ def prime_counter(upper):
 	        primes.append(i)
 
 	return primes
-
-print(len(prime_counter(1000000)))
